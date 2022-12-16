@@ -1,9 +1,9 @@
 
 const OneCountryPage = ({params}) =>{
     
-    const {code} = params
+    const {country} = params
 
-    return <h1>{code}</h1>
+    return <h1>{country}</h1>
 }
 
 export default OneCountryPage
